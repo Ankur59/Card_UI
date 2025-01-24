@@ -1,15 +1,21 @@
-import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
 import React from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  Image,
+  ScrollView,
+} from "react-native";
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import { ScrollView } from "react-native";
 import Entypo from "@expo/vector-icons/Entypo";
 
-const Card = () => {
+const Card: React.FC = () => {
   return (
     <View
       style={{
@@ -141,7 +147,7 @@ const Card = () => {
             <TouchableOpacity
               style={{
                 backgroundColor: "#26282C",
-                height: "70%",
+                height: "75%",
                 width: "35%",
                 alignItems: "center",
                 borderRadius: 100,
@@ -156,7 +162,7 @@ const Card = () => {
             <TouchableOpacity
               style={{
                 backgroundColor: "#26282C",
-                height: "70%",
+                height: "75%",
                 width: "35%",
                 alignItems: "center",
                 borderRadius: 100,
